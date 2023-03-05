@@ -47,6 +47,8 @@ print("%d bytes" % (Z.size * Z.itemsize))
 
 ```python
 %run `python -c "import numpy; numpy.info(numpy.add)"`
+#If above answer gets an error means,try the following:
+%doc np.add?
 ```
 #### 6. Create a null vector of size 10 but the fifth value which is 1 (★☆☆)
 
